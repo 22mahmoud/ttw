@@ -2,9 +2,10 @@
   "name": "ttw",
   "version": "1.0.0",
   "description": "build a telegram bot to post into my [blog](https://maw.sh/thoughts)",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --env-file=.env index.js"
   },
   "author": "",
   "license": "MIT"
